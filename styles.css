@@ -1,5 +1,5 @@
 *{
-    outline: solid 1px red;
+    outline: solid 1px blue;
     margin: 0;
     padding: 0;
 
@@ -14,6 +14,7 @@ body{
 body>div{
     display: flex;
     flex: 1 1 100px;
+    flex-wrap: wrap;
 }
 /* HEADER CSS */
 .header{
@@ -73,16 +74,73 @@ body>div{
 
 
 /* Products CSS */
-.products{
+.product-section{
     background-color: rgb(21, 255, 0);
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+
 }
+.products{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 30px;
+    flex-wrap: wrap;-
+
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid brown;
+    border-radius: 10px;
+}
+
+
+/* Quote CSS */
 .quote{
     background-color: rgb(251, 255, 0);
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
 }
+.quote-text{
+    width: 400px;
+    font-size: 30px;
+    font-style: italic;
+}
+.quote-author{
+    text-align: right;
+    font-weight: bold;
+}
+/* Call to action CSS */
 .cta{
     background-color: rgb(255, 0, 21);
 }
+.cta-box{
+    background-color: rgb(116, 48, 53);
+    display: flex;
+    flex: 0 0 400px;
+    padding: 30px;
+    margin: 20px auto;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.cta-button{
+    
+    width: 100px;
+    height: 30px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.cta-title{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+/* Footer CSS */
 .footer{
     background-color: rgb(255, 136, 0);
-    flex: 0 1 50px;
+    flex: 0 0 50px;
 }
