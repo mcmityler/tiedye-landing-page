@@ -16,7 +16,8 @@ body{
 .header{
     display:flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
+    background-color: #EF8182;
 }
 .header-title{
     font-weight: 800;
@@ -50,3 +51,46 @@ body{
 }
 
 /* CONTENT / BODY STYLING */
+.content{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+.intro-section{
+    display:flex;
+    box-sizing: border-box;
+    background-color: #EF8182;
+    gap: 20px;
+    padding: 30px;
+    width: 100%;
+    justify-content: center;
+
+}
+.sign-up{
+    padding: 5px 20px;
+    width: 100px;
+}
+
+.intro-image img{
+    width: 300px;
+    height: auto;
+}
+.intro-text{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.intro-image-credits{
+    color: #360d0d;
+    font-size: 0.9rem;
+    text-align: right;
+}
+.intro-image-credits a{
+    color: #79186c;
+    text-decoration: none;
+
+}
+
+/* Product section STYLING */
