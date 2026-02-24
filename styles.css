@@ -2,6 +2,9 @@
     outline: solid 1px red;
     margin: 0;
     padding: 0;
+
+    list-style: none;
+    text-decoration: none;
 }
 body{
     display: flex;
@@ -17,13 +20,12 @@ body>div{
     background-color: aqua;
     flex: 0 1 80px;
     /* flex is set within the body>div*/
-    justify-content:  space-between;
+    justify-content:  space-around;
     padding: 10px;
 }
 .logo{
     display: flex;
     align-items: center;
-    margin-left: 300px;
     gap: 10px
 }
 .logo-image{
@@ -32,27 +34,41 @@ body>div{
 }
 .header-links{
     align-self: center;
-    margin-right: 300px;
-
 }
 .header-links ul{
     display: flex;
     align-items: center;
     gap: 20px
 }
-.header-links ul li{
-    list-style: none;
-}
 .header-links ul li a{
-    text-decoration: none;
     color: #17c23c
 }
 /* INTRO CSS */
 .intro{
     background-color: rgb(59, 57, 199);
+    padding: 50px 0;
+    justify-content: center;
+    gap: 50px;
+
 }
 .intro-image img{
     width: 300px;
+}
+.intro-image p{
+    text-align: right;
+    padding-top: 5px;
+}
+.intro-text{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+.sign-up{
+    width: 100px;
+    padding: 5px 10px;
+    border-radius: 10px;
 }
 
 
