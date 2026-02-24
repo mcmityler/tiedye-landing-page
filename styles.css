@@ -1,5 +1,5 @@
 *{
-    outline: solid 1px blue;
+    /* outline: solid 1px blue; */
     margin: 0;
     padding: 0;
 
@@ -16,9 +16,12 @@ body>div{
     flex: 1 1 100px;
     flex-wrap: wrap;
 }
+.header,.intro, .footer{
+    color: rgb(225, 245, 248);
+}
 /* HEADER CSS */
 .header{
-    background-color: aqua;
+    background-color: rgb(4, 37, 43);
     flex: 0 1 80px;
     /* flex is set within the body>div*/
     justify-content:  space-around;
@@ -46,7 +49,7 @@ body>div{
 }
 /* INTRO CSS */
 .intro{
-    background-color: rgb(59, 57, 199);
+    background-color: rgb(4, 37, 43);
     padding: 50px 0;
     justify-content: center;
     gap: 50px;
@@ -75,7 +78,7 @@ body>div{
 
 /* Products CSS */
 .product-section{
-    background-color: rgb(21, 255, 0);
+    background-color: rgb(194, 229, 235);
     flex-direction: column;
     text-align: center;
     padding: 20px;
@@ -99,7 +102,7 @@ body>div{
 
 /* Quote CSS */
 .quote{
-    background-color: rgb(251, 255, 0);
+    background-color: rgb(167, 197, 202);
     flex-direction: column;
     align-items: center;
     padding: 50px;
@@ -115,10 +118,12 @@ body>div{
 }
 /* Call to action CSS */
 .cta{
-    background-color: rgb(255, 0, 21);
+    background-color: rgb(194, 229, 235);
+
 }
 .cta-box{
-    background-color: rgb(116, 48, 53);
+    background-color: rgb(197, 112, 97);
+
     display: flex;
     flex: 0 0 400px;
     padding: 30px;
@@ -141,7 +146,7 @@ body>div{
 
 /* Footer CSS */
 .footer{
-    background-color: rgb(255, 136, 0);
+    background-color: rgb(4, 37, 43);
     flex: 0 0 50px;
     justify-content: center;
     align-items: center;
