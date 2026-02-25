@@ -45,7 +45,7 @@ body>div{
     gap: 20px
 }
 .header-links ul li a{
-    color: #17c23c
+    color: #1a8f34;
 }
 /* INTRO CSS */
 .intro{
@@ -62,6 +62,9 @@ body>div{
     text-align: right;
     padding-top: 5px;
 }
+.intro-image p a{
+    color: #1a8f34;
+}
 .intro-text{
     width: 300px;
     display: flex;
@@ -73,6 +76,8 @@ body>div{
     width: 100px;
     padding: 5px 10px;
     border-radius: 10px;
+    background-color: rgb(122, 37, 22);
+    color: white;
 }
 
 
@@ -91,6 +96,11 @@ body>div{
     gap: 30px;
     flex-wrap: wrap;
 
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 .box{
     width: 100px;
@@ -127,7 +137,7 @@ body>div{
     display: flex;
     flex: 0 0 400px;
     padding: 30px;
-    margin: 20px auto;
+    margin: 40px auto;
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -138,6 +148,9 @@ body>div{
     height: 30px;
     padding: 5px 10px;
     border-radius: 10px;
+    background-color: rgb(122, 37, 22);
+    color: white;
+
 }
 .cta-title{
     font-size: 1.1em;
